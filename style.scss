@@ -6,7 +6,7 @@
     background-color: #FFFFFF;
     box-shadow: 0px 1.983px 9.913px rgba(0, 0, 0, 0.15);
 
-    .dis-slider-thumbnail {
+    a.dis-slider-thumbnail {
         img {
             width: 100%;
         }
@@ -44,7 +44,33 @@
 
     .dis-blog-slider-bottom {
         background-color: #F4F5EF;
+        margin-top: 31px;
+        padding: 11px;
         display: flex;
+
+        img {
+            margin: 5px 5px 0 0;
+        }
+
+        span {
+            color: #2B354E;
+            font-family: Inter;
+            font-size: 13.878px;
+            font-weight: 500;
+            line-height: 20.817px;
+            text-transform: uppercase;
+        }
+
+        a.dis-slider-btn {
+            color: #F5A033;
+            font-family: Inter;
+            font-size: 13.878px;
+            font-weight: 700;
+            line-height: 20.817px;
+            flex-grow: 1;
+            text-align: right;
+            align-self: flex-end;
+        }
 
     }
 }
