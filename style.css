@@ -8,7 +8,10 @@
 .dis-blog-slider-card a.dis-slider-thumbnail img {
   width: 100%;
 }
-.dis-blog-slider-card h4 {
+.dis-blog-slider-card a {
+  text-decoration: none;
+}
+.dis-blog-slider-card a h4 {
   margin: 0;
   color: #2B354E;
   font-family: Inter;
@@ -62,4 +65,5 @@
   flex-grow: 1;
   text-align: right;
   align-self: flex-end;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
