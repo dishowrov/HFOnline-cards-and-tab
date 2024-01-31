@@ -1,7 +1,9 @@
 .dis-blog-slider-card {
     margin: 45px;
-
     max-width: 345px;
+
+
+
     padding: 7px;
     background-color: #FFFFFF;
     box-shadow: 0px 1.983px 9.913px rgba(0, 0, 0, 0.15);
@@ -22,6 +24,7 @@
             font-size: 17.843px;
             font-weight: 500;
             line-height: 25.774px;
+            font-style: normal;
             overflow: hidden;
             text-overflow: ellipsis;
             height: 45px;
@@ -38,6 +41,7 @@
         font-size: 13.878px;
         font-weight: 400;
         line-height: 23.791px;
+        font-style: normal;
         overflow: hidden;
         text-overflow: ellipsis;
         height: 67px;
@@ -63,6 +67,7 @@
             font-weight: 500;
             line-height: 20.817px;
             text-transform: uppercase;
+            font-style: normal;
         }
 
         a.dis-slider-btn {
@@ -75,6 +80,7 @@
             text-align: right;
             align-self: flex-end;
             text-decoration: none;
+            font-style: normal;
         }
 
     }
