@@ -130,17 +130,17 @@
     display: flex;
     gap: 16px;
     align-items: center;
-    margin-top: -16px;
 }
 
 .dis-tab-nav .nav-tabs {
     border: 0;
-    margin-bottom: 15px;
+    display: flex !important;
+    justify-content: space-between !important;
 }
 
 .dis-tab-header .nav-tabs>li>a {
     margin: 0px 25px 15px 0px;
-    padding: 11px 55px;
+    /* padding: 11px 55px; */
     border: none;
     color: #2B354E;
     background-color: #e8e7d55d;
@@ -164,18 +164,15 @@
 
 .dis-tab-nav select#dis-cat {
     cursor: pointer;
-    height: 52px;
+    height: 49px;
     padding: 11px 45px;
     background-color: transparent;
     box-shadow: none;
-    border-radius: 7px;
     border: none;
     color: #3f3b52;
-    font-family: "Open Sans";
-    font-size: 20px;
+    font-family: "Inter";
+    font-size: 18px;
     font-weight: 400;
-    line-height: 28px;
-    text-transform: capitalize;
     background-color: #e8e7d55d;
     background-image: url("https://cambridgeopenacademy.com/wp-content/uploads/2024/01/Frame-1000004232.svg");
     background-repeat: no-repeat;
