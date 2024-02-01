@@ -23,546 +23,959 @@
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
 
     <!-- custom css  -->
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./my-tab.css" />
 </head>
 
 <body>
+    <!-- Tab section start  -->
     <div class="dis-tab-sec">
-        <div class="container-fluid">
+        <div class="container">
 
-            <div class="dis-tab-nav-wrapper">
+            <!-- Tab section's Header part with filtering buttons -->
+            <div class="dis-tab-header">
                 <div class="dis-tab-nav">
                     <ul class="nav nav-tabs">
                         <li class="active">
-                            <a data-toggle="tab" href="#basic"> Basic </a>
+                            <a data-toggle="tab" href="#topRated">Top Rated</a>
                         </li>
+                        <li><a data-toggle="tab" href="#mostPopular">Most Popular</a></li>
                         <li>
-                            <a data-toggle="tab" href="#plus"> Plus </a>
-                        </li>
-                        <li>
-                            <a data-toggle="tab" href="#pro"> Pro </a>
+                            <a data-toggle="tab" href="#newReleased">New Released</a>
                         </li>
                     </ul>
-                </div>
-            </div>
 
-            <div class="dis-tab-content-wrapper">
-                <div class="tab-content">
-                    <div id="basic" class="tab-pane fade in active dis-tab-content-inner">
-                        <div class>
-                            <div class="panel-group" id="accordion">
-
-                                <div class="panel panel-default">
-
-                                    <!-- Accordion Heading -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                                <div class="dis-panel-title-icon">
-                                                    <span class="glyphicon glyphicon-menu-right text-success"></span>
-                                                </div>
-                                                <div class="dis-panel-title-text">
-                                                    <h3>Compare Lifetime
-                                                        Prime Membership
-                                                        Plans</h3>
-                                                </div>
-                                            </a>
-                                        </h4>
-                                    </div>
-
-                                    <!-- Accordion Content -->
-                                    <div id="collapseOne" class="panel-collapse collapse in">
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Lifetime Access to
-                                                        3000+ courses</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Check.svg"
-                                                        alt="tick">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Student ID Card</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Check.svg"
-                                                        alt="tick">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Enrolment Letter</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Check.svg"
-                                                        alt="tick">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>24/7 customer support</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Check.svg"
-                                                        alt="tick">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>PDF Certificate</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Close_round.svg"
-                                                        alt="cross">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>PDT Transcript</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Close_round.svg"
-                                                        alt="cross">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Hardcopy Certificate</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Close_round.svg"
-                                                        alt="cross">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Access to Regulated
-                                                        Courses</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Close_round.svg"
-                                                        alt="cross">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Career Path</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Close_round.svg"
-                                                        alt="cross">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Job Guarantee
-                                                        Programme</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Close_round.svg"
-                                                        alt="cross">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Accordion Button -->
-                                        <div class="dis-tab-content-btn">
-                                            <a href="#">
-                                                Choose This Plan
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="plus" class="tab-pane fade dis-tab-content-inner">
-                        <div class>
-                            <div class="panel-group" id="accordion">
-
-                                <div class="panel panel-default">
-
-                                    <!-- Accordion Heading -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                                <div class="dis-panel-title-icon">
-                                                    <span class="glyphicon glyphicon-menu-right text-success"></span>
-                                                </div>
-                                                <div class="dis-panel-title-text">
-                                                    <h3>Compare Lifetime
-                                                        Prime Membership
-                                                        Plans</h3>
-                                                </div>
-                                            </a>
-                                        </h4>
-                                    </div>
-
-                                    <!-- Accordion Content -->
-                                    <div id="collapseTwo" class="panel-collapse collapse in">
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Lifetime Access to
-                                                        3000+ courses</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Check.svg"
-                                                        alt="tick">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Student ID Card</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Check.svg"
-                                                        alt="tick">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Enrolment Letter</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Check.svg"
-                                                        alt="tick">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>24/7 customer support</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Check.svg"
-                                                        alt="tick">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>PDF Certificate</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Check.svg"
-                                                        alt="tick">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>PDT Transcript</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Check.svg"
-                                                        alt="tick">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Hardcopy Certificate</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Close_round.svg"
-                                                        alt="cross">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Access to Regulated
-                                                        Courses</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Close_round.svg"
-                                                        alt="cross">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Career Path</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Close_round.svg"
-                                                        alt="cross">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Job Guarantee
-                                                        Programme</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Close_round.svg"
-                                                        alt="cross">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Accordion Button -->
-                                        <div class="dis-tab-content-btn">
-                                            <a href="#">
-                                                Choose This Plan
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="pro" class="tab-pane fade dis-tab-content-inner">
-                        <div class>
-                            <div class="panel-group" id="accordion">
-
-                                <div class="panel panel-default">
-
-                                    <!-- Accordion Heading -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                                <div class="dis-panel-title-icon">
-                                                    <span class="glyphicon glyphicon-menu-right text-success"></span>
-                                                </div>
-                                                <div class="dis-panel-title-text">
-                                                    <h3>Compare Lifetime
-                                                        Prime Membership
-                                                        Plans</h3>
-                                                </div>
-                                            </a>
-                                        </h4>
-                                    </div>
-
-                                    <!-- Accordion Content -->
-                                    <div id="collapseThree" class="panel-collapse collapse in">
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Lifetime Access to
-                                                        3000+ courses</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Check.svg"
-                                                        alt="tick">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Student ID Card</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Check.svg"
-                                                        alt="tick">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Enrolment Letter</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Check.svg"
-                                                        alt="tick">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>24/7 customer support</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Check.svg"
-                                                        alt="tick">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>PDF Certificate</p>
-                                                </li>
-
-                                                <li>
-                                                    <span>Unlimited</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>PDT Transcript</p>
-                                                </li>
-
-                                                <li>
-                                                    <span>Unlimited</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Hardcopy Certificate</p>
-                                                </li>
-
-                                                <li>
-                                                    <span>Unlimited</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Access to Regulated
-                                                        Courses</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Check.svg"
-                                                        alt="tick">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Career Path</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Check.svg"
-                                                        alt="tick">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="panel-body dis-tab-content-panel-body">
-                                            <ul>
-                                                <li>
-                                                    <p>Job Guarantee
-                                                        Programme</p>
-                                                </li>
-
-                                                <li>
-                                                    <img src="https://www.janets.org.uk/wp-content/uploads/2023/12/Check.svg"
-                                                        alt="tick">
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Accordion Button -->
-                                        <div class="dis-tab-content-btn">
-                                            <a href="#">
-                                                Contact Sales
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
+                    <div class="dis-tab-cat">
+                        <h3 class="dis-tc-title">Category:</h3>
+                        <select id="dis-cat" class="form-control">
+                            <option>All</option>
+                            <option>Personal Development</option>
+                            <option>Employability</option>
+                            <option>Health and Fitness</option>
+                        </select>
                     </div>
                 </div>
             </div>
 
+            <!-- Tab section's Content part with item boxes -->
+            <div class="tab-content">
+
+                <div id="topRated" class="tab-pane fade in active">
+                    <div class="dis-tab-container">
+
+                        <!--#1 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Personal Development">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a href="https://thamescollege.org/course/sage-50-payroll-for-beginners/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2017/10/Sage-50-Payroll-for-Beginners.png"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/sage-50-payroll-for-beginners/"
+                                        class="dis-cat">
+                                        CPD Accredited Single Course
+
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/sage-50-payroll-for-beginners/"
+                                    class="dis-heading">
+                                    Sage 50 Payroll for Beginners
+
+                                </a>
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>722</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- #1 best selling course card end  -->
+
+                        <!-- #2 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Language">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a href="https://thamescollege.org/course/proofreading-copyediting-3/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2020/01/Proofreading-Copyediting.jpg"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/proofreading-copyediting-3/"
+                                        class="dis-cat">
+                                        QLS Endorsed Single Course
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/proofreading-copyediting-3/"
+                                    class="dis-heading">
+                                    Proofreading & Copyediting
+                                </a>
+
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>1485</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- #2 best selling course card end  -->
+
+                        <!-- #3 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Employability">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a href="https://thamescollege.org/course/diploma-in-business-management/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2018/02/4-Diploma-in-Business-Management.jpg"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/diploma-in-business-management/"
+                                        class="dis-cat">
+                                        QLS Endorsed Single Course
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/diploma-in-business-management/"
+                                    class="dis-heading">
+                                    Diploma in Business Management
+                                </a>
+
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>523</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- #3 best selling course card end  -->
+
+                        <!-- #4 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Leadership">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a href="https://thamescollege.org/course/healthcare-assistant-training/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2018/10/Healthcare-Assistant-Training.png"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/healthcare-assistant-training/"
+                                        class="dis-cat">
+                                        QLS Endorsed Single Course
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/healthcare-assistant-training/"
+                                    class="dis-heading">
+                                    Healthcare Assistant Training
+                                </a>
+
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>82</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- #4 best selling course card end  -->
+
+                        <!-- #5 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Personal Development">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a
+                                    href="https://thamescollege.org/course/chatgpt-for-marketing-and-productivity-with-ai-tools/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2023/08/shutterstock_2249349207-1-2048x1362.jpg"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/chatgpt-for-marketing-and-productivity-with-ai-tools/"
+                                        class="dis-cat">
+                                        QLS Endorsed Single Course
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/chatgpt-for-marketing-and-productivity-with-ai-tools/"
+                                    class="dis-heading">
+                                    ChatGPT for Marketing and Productivity with AI Tools
+                                </a>
+
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>1900</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- #5 best selling course card end  -->
+
+                        <!-- #6 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Personal Development">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a href="https://thamescollege.org/course/optimal-health-and-nutrition/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2020/08/244.-Optimal-Health-and-Nutrition.jpg"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/optimal-health-and-nutrition/"
+                                        class="dis-cat">
+                                        QLS Endorsed Single Course
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/optimal-health-and-nutrition/"
+                                    class="dis-heading">
+                                    Optimal Health and Nutrition
+                                </a>
+
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>132</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- #6 best selling course card end  -->
+
+                    </div>
+                </div>
+
+                <div id="mostPopular" class="tab-pane fade">
+                    <div class="dis-tab-container">
+
+                        <!--#1 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Personal Development">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a href="https://thamescollege.org/course/paralegal-training-4/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2020/09/Paralegal.png"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/paralegal-training-4/" class="dis-cat">
+                                        QLS Endorsed Single Course
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/paralegal-training-4/" class="dis-heading">
+                                    Paralegal Training
+                                </a>
+
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>3006</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- #1 best selling course card end  -->
+
+                        <!-- #2 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Language">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a href="https://thamescollege.org/course/advanced-instagram-marketing/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2021/01/5.-Advanced-Instagram-Marketing.jpg"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/advanced-instagram-marketing/"
+                                        class="dis-cat">
+                                        QLS Endorsed Single Course
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/advanced-instagram-marketing/"
+                                    class="dis-heading">
+                                    Advanced Instagram Marketing
+                                </a>
+
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>1975</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- #2 best selling course card end  -->
+
+                        <!-- #3 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Employability">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a href="https://thamescollege.org/course/leadership-and-management-level-7/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2020/12/7.Leadership-and-Management-Course.jpg"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/leadership-and-management-level-7/"
+                                        class="dis-cat">
+                                        QLS Endorsed Single Course
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/leadership-and-management-level-7/"
+                                    class="dis-heading">
+                                    Leadership and Management at QLS Level 7
+                                </a>
+
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>1661</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- #3 best selling course card end  -->
+
+                        <!-- #4 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Leadership">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a href="https://thamescollege.org/course/family-support-key-worker/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2020/09/AIFamily-Support-Key-Worker.jpg"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/family-support-key-worker/"
+                                        class="dis-cat">
+                                        QLS Endorsed Single Course
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/family-support-key-worker/"
+                                    class="dis-heading">
+                                    Family Support Key Worker
+                                </a>
+
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>1847</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- #4 best selling course card end  -->
+
+                        <!-- #5 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Personal Development">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a href="https://thamescollege.org/course/cryptocurrency-forex-elliot-waves/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2021/07/trading-platform.webp"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/cryptocurrency-forex-elliot-waves/"
+                                        class="dis-cat">
+                                        QLS Endorsed Single Course
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/cryptocurrency-forex-elliot-waves/"
+                                    class="dis-heading">
+                                    Cryptocurrency/Forex/Stock Market Trading with Elliot waves
+                                </a>
+
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>2504</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- #5 best selling course card end  -->
+
+                        <!-- #6 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Personal Development">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a href="https://thamescollege.org/course/linkedin-for-businesses/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2021/05/Using-LinkedIn-as-Business-Tool.jpg"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/linkedin-for-businesses/" class="dis-cat">
+                                        QLS Endorsed Single Course
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/linkedin-for-businesses/" class="dis-heading">
+                                    Using LinkedIn as Business Tool
+                                </a>
+
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>1430</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- #6 best selling course card end  -->
+
+                    </div>
+                </div>
+
+                <div id="newReleased" class="tab-pane fade">
+                    <div class="dis-tab-container">
+
+                        <!--#1 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Personal Development">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a href="https://thamescollege.org/course/concierge-hospitality-management-course/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2023/12/partners-sitting-table-working-cafe-1-2048x1365.jpg"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/concierge-hospitality-management-course/"
+                                        class="dis-cat">
+                                        QLS Endorsed Single Course
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/concierge-hospitality-management-course/"
+                                    class="dis-heading">
+                                    Concierge & Hospitality Management
+                                </a>
+
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>117</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- #1 best selling course card end  -->
+
+
+                        <!-- !!!!! ================================================================= course Link problem -->
+                        <!-- #2 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Language">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a href="https://thamescollege.org/course/proofreading-copyediting-3/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2021/10/title-bg-1-1.jpg"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/proofreading-copyediting-3/"
+                                        class="dis-cat">
+                                        QLS Endorsed Single Course
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/proofreading-copyediting-3/"
+                                    class="dis-heading">
+                                    Customer Relationship Management
+                                </a>
+
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>2</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- #2 best selling course card end  -->
+
+                        <!-- #3 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Employability">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a href="https://thamescollege.org/course/spanish-language-course/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2023/12/BSL-2-4.png"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/spanish-language-course/" class="dis-cat">
+                                        QLS Endorsed Single Course
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/spanish-language-course/" class="dis-heading">
+                                    Spanish Language Course
+                                </a>
+
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>255</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- #3 best selling course card end  -->
+
+                        <!-- #4 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Leadership">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a href="https://thamescollege.org/course/occupational-therapy-play-therapy-2/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2023/12/kid-doing-occupational-therapy-session-with-psychologist-1.jpg"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/occupational-therapy-play-therapy-2/"
+                                        class="dis-cat">
+                                        QLS Endorsed Single Course
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/occupational-therapy-play-therapy-2/"
+                                    class="dis-heading">
+                                    Occupational Therapy & Play Therapy
+                                </a>
+
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>176</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- #4 best selling course card end  -->
+
+                        <!-- #5 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Personal Development">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a
+                                    href="https://thamescollege.org/course/coding-essentials-javascript-asp-net-c-bonus-html/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2023/08/Coding-Essentials-Javascript-ASP.-Net-C-Bonus-HTML.png"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/coding-essentials-javascript-asp-net-c-bonus-html/"
+                                        class="dis-cat">
+                                        QLS Endorsed Single Course
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/coding-essentials-javascript-asp-net-c-bonus-html/"
+                                    class="dis-heading">
+                                    Coding Essentials - Javascript, ASP. Net, C# - Bonus HTML
+                                </a>
+
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>2</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- #5 best selling course card end  -->
+
+                        <!-- #6 best selling course card start  -->
+                        <div class="dis-bs-card" data-category="Personal Development">
+
+                            <!-- Course Thumbnail -->
+                            <div class="dis-image_sec">
+                                <a href="https://thamescollege.org/course/document-control-and-workflow-management-2/">
+                                    <img src="https://thamescollege.org/wp-content/uploads/2021/05/Document-Control-and-Workflow-Management.png"
+                                        alt="Our Course Thumbnail" />
+                                </a>
+                            </div>
+
+                            <!-- Course Details -->
+                            <div class="dis-content_sec">
+                                <div class="dis-cat-items">
+                                    <a href="https://thamescollege.org/course/document-control-and-workflow-management-2/"
+                                        class="dis-cat">
+                                        QLS Endorsed Single Course
+                                    </a>
+                                </div>
+
+                                <a href="https://thamescollege.org/course/document-control-and-workflow-management-2/"
+                                    class="dis-heading">
+                                    Document Control and Workflow Management
+                                </a>
+
+                                <div class="dis-rating_sec">
+                                    <p>5.0</p>
+
+                                    <div>
+                                        <img src="https://thamescollege.org/wp-content/uploads/2024/01/5star-review.png"
+                                            alt="5 Star Reviews">
+                                    </div>
+                                </div>
+
+                                <div class="dis-footer_content">
+                                    <h4> £29.99 <del>£424</del> </h4>
+                                    <div class="dis-member">
+                                        <div>
+                                            <img src="https://thamescollege.org/wp-content/uploads/2024/01/course-student.png"
+                                                alt="Students">
+                                        </div>
+                                        <p>1</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- #6 best selling course card end  -->
+
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
+    <!-- Tab section end  -->
+
+    <!-- ========================== All JS is here ============================= -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+        <script src="./custom.js"></script>
 </body>
 
 </html>
