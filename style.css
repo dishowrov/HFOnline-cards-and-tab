@@ -70,4 +70,12 @@
   align-self: flex-end;
   text-decoration: none;
   font-style: normal;
+}
+
+.dis-course-card {
+  margin: 45px;
+  max-width: 345px;
+  padding: 7px;
+  background-color: #FFFFFF;
+  border: 1px solid #EDEDED;
 }/*# sourceMappingURL=style.css.map */
