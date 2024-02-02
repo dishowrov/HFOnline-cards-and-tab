@@ -1,6 +1,4 @@
 .dis-blog-slider-card {
-  margin: 45px;
-  max-width: 345px;
   padding: 7px;
   background-color: #FFFFFF;
   box-shadow: 0px 1.983px 9.913px rgba(0, 0, 0, 0.15);
@@ -73,20 +71,36 @@
 }
 
 .dis-course-card {
-  margin: 45px;
-  max-width: 345px;
+  padding: 5px 5px 15px 5px;
+  background-color: #FFFFFF;
+  border: 1px solid #EDEDED;
   padding: 5px 5px 15px 5px;
   background-color: #FFFFFF;
   border: 1px solid #EDEDED;
 }
 .dis-course-card a.dis-course-thumbnail img {
   width: 100%;
+  width: 100%;
 }
 .dis-course-card a {
+  text-decoration: none;
   text-decoration: none;
 }
 .dis-course-card a h4 {
   margin: 7px 11px 5px 11px;
+  color: #2B354E;
+  font-family: Inter;
+  font-size: 17.843px;
+  font-weight: 500;
+  line-height: 25.774px;
+  font-style: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 91px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin: 5px 11px;
   color: #2B354E;
   font-family: Inter;
   font-size: 17.843px;
@@ -107,6 +121,11 @@
   margin: 5px 11px;
   padding: 15px 0;
   border-top: 1px solid #EDEDED;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 11px;
+  border-top: 1px solid #EDEDED;
 }
 .dis-course-card .dis-course-info p {
   display: flex;
@@ -117,6 +136,13 @@
   font-size: 18px;
   font-weight: 400;
   margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #2B354E;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
 }
 .dis-course-card .dis-course-bottom {
   background-color: #FDF0DE;
@@ -124,12 +150,23 @@
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  background-color: #FDF0DE;
+  margin: 5px 11px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .dis-course-card .dis-course-bottom h6 {
   align-self: flex-end;
   margin: 0;
+  margin: 0;
 }
 .dis-course-card .dis-course-bottom h6 del {
+  color: #B1B1B1;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
   color: #B1B1B1;
   font-family: Inter;
   font-size: 22px;
@@ -140,10 +177,21 @@
   font-family: Inter;
   font-size: 40px;
   font-weight: 700;
+  color: #7A8F3C;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
 }
 .dis-course-card .dis-course-bottom h5.dis-course-btn {
   margin: 0;
   height: 35px !important;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5A033;
+  margin: 0;
+  height: 50px;
   width: 120px;
   display: flex;
   align-items: center;
@@ -158,7 +206,102 @@
   line-height: 20.817px;
   text-decoration: none;
   font-style: normal;
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 13.878px;
+  font-weight: 500;
+  line-height: 20.817px;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.dis-tab-sec {
+  padding-bottom: 40px;
+}
+.dis-tab-sec .container {
+  width: 100% !important;
+}
+
+.dis-cat-items {
+  display: flex;
+  gap: 4px;
+}
+
+.dis-cat:hover {
+  text-decoration: underline;
+}
+
+.dis-tab-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  justify-items: center;
+  margin-top: 40px;
+}
+
+.dis-tab-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+.dis-tab-nav .nav-tabs {
+  border: 0;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.dis-tab-nav select#dis-cat {
+  cursor: pointer;
+  height: 49px;
+  padding: 11px 45px;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  color: #3f3b52;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  background-color: rgba(232, 231, 213, 0.3647058824);
+  background-image: url("https://cambridgeopenacademy.com/wp-content/uploads/2024/01/Frame-1000004232.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  background-size: auto 14px;
+}
+
+.dis-tab-cat {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.dis-tab-header .nav-tabs > li > a {
+  margin: 0px 25px 15px 0px;
+  border: none;
+  color: #2B354E;
+  background-color: rgba(232, 231, 213, 0.3647058824);
+  font-family: "Sen";
+  font-size: 18px;
+  font-weight: 400;
+}
+.dis-tab-header .nav-tabs > li:last-child > a {
+  margin: 0;
+}
+.dis-tab-header .nav-tabs > li.active > a {
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  background: #8FA05D;
+}
+.dis-tab-header .nav-tabs > li.active > a:focus {
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  background: #8FA05D;
+}
+.dis-tab-header .nav-tabs > li.active > a:hover {
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  background: #8FA05D;
 }/*# sourceMappingURL=style.css.map */
-
-
-
