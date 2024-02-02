@@ -1,4 +1,3 @@
-/* the course card */
 .dis-blog-slider-card {
   margin: 45px;
   max-width: 345px;
@@ -74,6 +73,8 @@
 }
 
 .dis-course-card {
+  margin: 45px;
+  max-width: 345px;
   padding: 5px 5px 15px 5px;
   background-color: #FFFFFF;
   border: 1px solid #EDEDED;
@@ -158,3 +159,6 @@
   text-decoration: none;
   font-style: normal;
 }/*# sourceMappingURL=style.css.map */
+
+
+
