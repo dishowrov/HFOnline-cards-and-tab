@@ -1,7 +1,5 @@
 .dis-tab-sec {
     padding-bottom: 40px;
-    max-width: 1255px;
-    margin: 0 auto;
 }
 
 .dis-tab-sec .container {
@@ -212,7 +210,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 15px 0;
+        gap: 3px 0;
     }
 }
 
@@ -232,6 +230,36 @@
     .nav-tabs>li {
         width: auto !important;
         border-bottom: none;
+    }
+}
+
+@media (max-width: 1037px) {
+    .dis-course-card .dis-course-bottom h6 del {
+        font-size: 17px;
+    }
+
+    .dis-course-card .dis-course-bottom h6 ins {
+        font-size: 23px;
+    }
+
+    .dis-course-card .dis-course-info p {
+        gap: 5px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 565px) and (max-width: 1037px) {
+    .dis-course-card a h4 {
+        font-size: 15px;
+    }
+
+    .dis-course-card .dis-course-bottom h5.dis-course-btn {
+        height: 25px;
+        width: 77px;
+    }
+
+    .dis-course-card .dis-course-bottom h5.dis-course-btn a {
+        font-size: 12px;
     }
 }
 
