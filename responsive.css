@@ -1,0 +1,33 @@
+@media (min-width: 565px) and (max-width: 1037px) {
+    .dis-course-card a h4 {
+        font-size: 15px;
+    }
+
+    .dis-course-card .dis-course-bottom h6 del {
+        font-size: 17px !important;
+    }
+
+    .dis-course-card .dis-course-bottom h6 ins {
+        font-size: 23px !important;
+    }
+
+    .dis-course-card .dis-course-bottom h5.dis-course-btn {
+        height: 25px !important;
+        width: 65px !important;
+    }
+
+    .dis-course-card .dis-course-bottom h5.dis-course-btn a {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 564px) {
+    .dis-course-card .dis-course-bottom h6 del {
+        font-size: 18px !important;
+    }
+
+    .dis-course-card .dis-course-bottom h6 ins {
+        font-size: 25px !important;
+    }
+
+}
