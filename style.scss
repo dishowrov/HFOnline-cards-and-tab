@@ -1,11 +1,20 @@
+$color_1: #2B354E;
+$color_2: #F5A033;
+$color_3: #B1B1B1;
+$color_4: #7A8F3C;
+$color_5: #FFFFFF;
+$font-family_1: Inter;
+$background-color_1: #FFFFFF;
+$background-color_2: #F4F5EF;
+$background-color_3: #FDF0DE;
+$background-color_4: #F5A033;
+
+/* the course card */
 .dis-blog-slider-card {
     margin: 45px;
     max-width: 345px;
-
-
-
     padding: 7px;
-    background-color: #FFFFFF;
+    background-color: $background-color_1;
     box-shadow: 0px 1.983px 9.913px rgba(0, 0, 0, 0.15);
 
     a.dis-slider-thumbnail {
@@ -19,8 +28,8 @@
 
         h4 {
             margin: 0;
-            color: #2B354E;
-            font-family: Inter;
+            color: $color_1;
+            font-family: $font-family_1;
             font-size: 17.843px;
             font-weight: 500;
             line-height: 25.774px;
@@ -36,8 +45,8 @@
 
     p {
         margin: 0;
-        color: #2B354E;
-        font-family: Inter;
+        color: $color_1;
+        font-family: $font-family_1;
         font-size: 13.878px;
         font-weight: 400;
         line-height: 23.791px;
@@ -51,7 +60,7 @@
     }
 
     .dis-blog-slider-bottom {
-        background-color: #F4F5EF;
+        background-color: $background-color_2;
         margin-top: 31px;
         padding: 11px;
         display: flex;
@@ -61,8 +70,8 @@
         }
 
         span {
-            color: #2B354E;
-            font-family: Inter;
+            color: $color_1;
+            font-family: $font-family_1;
             font-size: 13.878px;
             font-weight: 500;
             line-height: 20.817px;
@@ -71,8 +80,8 @@
         }
 
         a.dis-slider-btn {
-            color: #F5A033;
-            font-family: Inter;
+            color: $color_2;
+            font-family: $font-family_1;
             font-size: 13.878px;
             font-weight: 700;
             line-height: 20.817px;
@@ -82,17 +91,12 @@
             text-decoration: none;
             font-style: normal;
         }
-
     }
 }
 
 .dis-course-card {
-    margin: 45px;
-    max-width: 345px;
-
-
     padding: 5px 5px 15px 5px;
-    background-color: #FFFFFF;
+    background-color: $background-color_1;
     border: 1px solid #EDEDED;
 
     a.dis-course-thumbnail {
@@ -105,9 +109,9 @@
         text-decoration: none;
 
         h4 {
-            margin: 5px 11px;
-            color: #2B354E;
-            font-family: Inter;
+            margin: 7px 11px 5px 11px;
+            color: $color_1;
+            font-family: $font-family_1;
             font-size: 17.843px;
             font-weight: 500;
             line-height: 25.774px;
@@ -126,40 +130,42 @@
         justify-content: space-between;
         align-items: center;
         margin: 5px 11px;
+        padding: 15px 0;
         border-top: 1px solid #EDEDED;
 
         p {
             display: flex;
             align-items: center;
             gap: 9px;
-            color: #2B354E;
-            font-family: Inter;
+            color: $color_1;
+            font-family: $font-family_1;
             font-size: 18px;
             font-weight: 400;
+            margin: 0;
         }
     }
 
     .dis-course-bottom {
-        background-color: #FDF0DE;
+        background-color: $background-color_3;
         margin: 5px 11px;
         padding: 10px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
 
         h6 {
+            align-self: flex-end;
             margin: 0;
 
             del {
-                color: #B1B1B1;
-                font-family: Inter;
+                color: $color_3;
+                font-family: $font-family_1;
                 font-size: 22px;
                 font-weight: 400;
             }
 
             ins {
-                color: #7A8F3C;
-                font-family: Inter;
+                color: $color_4;
+                font-family: $font-family_1;
                 font-size: 40px;
                 font-weight: 700;
             }
@@ -167,16 +173,16 @@
 
         h5.dis-course-btn {
             margin: 0;
-            height: 50px;
+            height: 35px !important;
             width: 120px;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: #F5A033;
+            background-color: $background-color_4;
 
             a {
-                color: #FFFFFF;
-                font-family: Inter;
+                color: $color_5;
+                font-family: $font-family_1;
                 font-size: 13.878px;
                 font-weight: 500;
                 line-height: 20.817px;
@@ -185,5 +191,4 @@
             }
         }
     }
-
 }
